@@ -1,6 +1,8 @@
 [deps]
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 InfrastructureSystems = "2cd47ed4-ca9b-11e9-27f2-ab636a7671f1"
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+PowerSystemCaseBuilder = "f00506e0-b84f-492a-93c2-c0a9afc4364e"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]

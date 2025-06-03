@@ -1,14 +1,5 @@
 # [Parse Tabular Data from .csv Files](@id table_data)
 
-!!! warning
-    
-    This parser will be deprecated sometime in the fall of 2024. `PowerSystems.jl` will be
-    moving to a database solution for handling data. There are plans to eventually include
-    utility functions to translate from .csv files to the database, but there will probably
-    be a gap in support. **Users are recommended to write their own custom Julia code to
-    import data from their unique data formats, rather than relying on this parsing
-    code.**
-
 This parser, called the tabular data parser, is a custom format that allows users to define
 power system component data by category and column with custom names, types, and units.
 
@@ -20,7 +11,7 @@ following categories are currently supported:
   - branch.csv
 
   - bus.csv (required)
-    
+
       + columns specifying `area` and `zone` will create a corresponding set of `Area` and `LoadZone` objects.
       + columns specifying `max_active_power` or `max_reactive_power` will create `PowerLoad` objects when nonzero values are encountered and will contribute to the `peak_active_power` and `peak_reactive_power` values for the
         corresponding `LoadZone` object.
@@ -138,7 +129,7 @@ names.
 
  1. Add an entry to the array of parameters for your category in
     `src/descriptors/power_system_inputs.json` according to the following:
-    
+
      1. Use `snake_case` for the name field.
      2. The fields `name` and `description` are required.
      3. Try to use a name that is generic and not specific to one dataset.
