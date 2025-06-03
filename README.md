@@ -1,6 +1,6 @@
 # PowerTableDataParser.jl
 
-[![main - CI](https://github.com/NREL-Sienna/PowerTableDataParser.jl/workflows/main%20-%20CI/badge.svg)](https://github.com/NREL-Sienna/PowerTableDataParser.jl/actions/workflows/main-tests.yml)
+[![Main - CI](https://github.com/NREL-Sienna/PowerTableDataParser.jl/actions/workflows/main-tests.yml/badge.svg)](https://github.com/NREL-Sienna/PowerTableDataParser.jl/actions/workflows/main-tests.yml)
 [![codecov](https://codecov.io/gh/NREL-Sienna/PowerTableDataParser.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/NREL-SIENNA/SIENNA-PACKAGE.jl)
 [![Documentation Build](https://github.com/NREL-Sienna/PowerTableDataParser.jl/workflows/Documentation/badge.svg?)](https://nrel-sienna.github.io/PowerTableDataParser.jl/stable)
 

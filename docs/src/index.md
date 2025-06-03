@@ -11,7 +11,7 @@ CurrentModule = PowerTableDataParser
 ## About
 
 `PowerTableDataParser` is part of the National Renewable Energy Laboratory's
-[Sienna ecosystem](https://www.nrel.gov/analysis/sienna.html), an open source framework for
+[Sienna platform](https://www.nrel.gov/analysis/sienna.html), an open source framework for
 scheduling problems and dynamic simulations for power systems. The Sienna ecosystem can be
 [found on github](https://github.com/NREL-Sienna/Sienna). It contains three applications:
 

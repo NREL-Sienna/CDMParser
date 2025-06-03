@@ -21,7 +21,7 @@ makedocs(
         prettyurls = haskey(ENV, "GITHUB_ACTIONS"),
         size_threshold = nothing,),
     sitename = "github.com/NREL-Sienna/PowerTableDataParser.jl",
-    authors = "Freddy Mercury",
+    authors = "José Daniel Lara",
     pages = Any[p for p in pages],
     draft = false,
 )

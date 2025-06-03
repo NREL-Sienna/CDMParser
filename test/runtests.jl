@@ -1,6 +1,7 @@
 using Test
 import InfrastructureSystems
 import PowerTableDataParser
+import PowerSystemsCaseBuilder
 import Logging
 
 const IS = InfrastructureSystems
