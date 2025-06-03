@@ -1,4 +1,4 @@
-# CDMParser
+# PowerTableDataParser.jl
 
 [![main - CI](https://github.com/NREL-Sienna/CDMParser.jl/workflows/main%20-%20CI/badge.svg)](https://github.com/NREL-Sienna/CDMParser.jl/actions/workflows/main-tests.yml)
 [![codecov](https://codecov.io/gh/NREL-Sienna/CDMParser.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/NREL-SIENNA/SIENNA-PACKAGE.jl)
