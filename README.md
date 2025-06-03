@@ -1,22 +1,15 @@
-# SIENNA-Template
+# CDMParser
 
-[![main - CI](https://github.com/NREL-Sienna/Sienna-PACKAGE.jl/workflows/main%20-%20CI/badge.svg)](https://github.com/NREL-Sienna/Sienna-PACKAGE.jl/actions/workflows/main-tests.yml)
-[![codecov](https://codecov.io/gh/NREL-Sienna/Sienna-PACKAGE.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/NREL-SIENNA/SIENNA-PACKAGE.jl)
-[![Documentation Build](https://github.com/NREL-Sienna/Sienna-PACKAGE.jl/workflows/Documentation/badge.svg?)](https://nrel-sienna.github.io/Sienna-PACKAGE.jl/stable)
-[<img src="https://img.shields.io/badge/slack-@Sienna/SiennaPACKAGE-sienna.svg?logo=slack">](https://join.slack.com/t/nrel-sienna/shared_invite/zt-glam9vdu-o8A9TwZTZqqNTKHa7q3BpQ)
-[![Sienna-PACKAGE.jl Downloads](https://shields.io/endpoint?url=https://pkgs.genieframework.com/api/v1/badge/SIENNA-PACKAGE)](https://pkgs.genieframework.com?packages=Sienna-PACKAGE)
+[![main - CI](https://github.com/NREL-Sienna/CDMParser.jl/workflows/main%20-%20CI/badge.svg)](https://github.com/NREL-Sienna/CDMParser.jl/actions/workflows/main-tests.yml)
+[![codecov](https://codecov.io/gh/NREL-Sienna/CDMParser.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/NREL-SIENNA/SIENNA-PACKAGE.jl)
+[![Documentation Build](https://github.com/NREL-Sienna/CDMParser.jl/workflows/Documentation/badge.svg?)](https://nrel-sienna.github.io/CDMParser.jl/stable)
 
-This repository contains the template files for a dummy package called SIENNA-PACKAGE. IT contains the required files for
-
-- Testing
-- Documentation
-- Formatting
-- CI/CD to follow Sienna practices
+This repository contains a Work-in-progress version of the CSV Data Parser (CDM) from PowerSystems.jl as a stand-alone package since the support within PowerSystems.jl will be deprecated in future versions.
 
 ## Development
 
-Contributions to the development and enahancement of Sienna-PACKAGE is welcome. Please see [CONTRIBUTING.md](https://github.com/NREL-Sienna/Sienna-PACKAGE.jl/blob/main/CONTRIBUTING.md) for code contribution guidelines.
+Contributions to the development and enahancement of CDMParser is welcome. Please see [CONTRIBUTING.md](https://github.com/NREL-Sienna/CDMParser.jl/blob/main/CONTRIBUTING.md) for code contribution guidelines.
 
 ## License
 
-SIENNA-PACKAGE is released under a BSD [license](https://github.com/NREL/SIENNA-PACKAGE/blob/main/LICENSE). Sienna PACKAGE has been developed as part of A PROJECT at the U.S. Department of Energy's National Renewable Energy Laboratory ([NREL](https://www.nrel.gov/))
+SIENNA-PACKAGE is released under a BSD [license](https://github.com/NREL/CDMParser/blob/main/LICENSE). CDM Parser has been developed at the U.S. Department of Energy's National Renewable Energy Laboratory ([NREL](https://www.nrel.gov/))

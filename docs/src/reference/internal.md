@@ -1,6 +1,6 @@
 # Internal API
 
 ```@autodocs
-Modules = [SiennaTemplate]
+Modules = [CDMParser]
 Public = false
 ```

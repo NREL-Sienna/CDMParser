@@ -1,4 +1,4 @@
-module SiennaTemplate
+module CDMParser
 using DocStringExtensions
 
 @template (FUNCTIONS, METHODS) = """
