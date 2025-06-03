@@ -1,6 +1,6 @@
 # Internal API
 
 ```@autodocs
-Modules = [CDMParser]
+Modules = [PowerTableDataParser]
 Public = false
 ```

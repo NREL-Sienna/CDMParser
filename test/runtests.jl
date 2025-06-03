@@ -2,11 +2,11 @@ using Test
 import Logging
 
 import Aqua
-Aqua.test_unbound_args(CDMParser)
-Aqua.test_undefined_exports(CDMParser)
-Aqua.test_ambiguities(CDMParser)
-Aqua.test_stale_deps(CDMParser)
-Aqua.test_deps_compat(CDMParser)
+Aqua.test_unbound_args(PowerTableDataParser)
+Aqua.test_undefined_exports(PowerTableDataParser)
+Aqua.test_ambiguities(PowerTableDataParser)
+Aqua.test_stale_deps(PowerTableDataParser)
+Aqua.test_deps_compat(PowerTableDataParser)
 
 LOG_FILE = "power-systems.log"
 LOG_LEVELS = Dict(

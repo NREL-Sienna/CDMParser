@@ -1,6 +1,6 @@
 using Documenter
 import DataStructures: OrderedDict
-using CDMParser
+using PowerTableDataParser
 
 pages = OrderedDict(
     "Welcome Page" => "index.md",
@@ -16,18 +16,18 @@ pages = OrderedDict(
 )
 
 makedocs(
-    modules = [CDMParser],
+    modules = [PowerTableDataParser],
     format = Documenter.HTML(
         prettyurls = haskey(ENV, "GITHUB_ACTIONS"),
         size_threshold = nothing,),
-    sitename = "github.com/NREL-Sienna/CDMParser.jl",
+    sitename = "github.com/NREL-Sienna/PowerTableDataParser.jl",
     authors = "Freddy Mercury",
     pages = Any[p for p in pages],
     draft = false,
 )
 
 deploydocs(
-    repo="github.com/NREL-Sienna/CDMParser.jl",
+    repo="github.com/NREL-Sienna/PowerTableDataParser.jl",
     target="build",
     branch="gh-pages",
     devbranch="main",

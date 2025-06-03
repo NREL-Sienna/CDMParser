@@ -1,6 +1,6 @@
 # Public API Reference
 
 ```@autodocs
-Modules = [CDMParser]
+Modules = [PowerTableDataParser]
 Public = true
 ```

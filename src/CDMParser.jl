@@ -1,4 +1,4 @@
-module CDMParser
+module PowerTableDataParser
 import InfrastructureSystems
 
 const IS = InfrastructureSystems
