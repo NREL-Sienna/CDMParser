@@ -1,5 +1,9 @@
 using Test
+import InfrastructureSystems
+import PowerTableDataParser
 import Logging
+
+const IS = InfrastructureSystems
 
 import Aqua
 Aqua.test_unbound_args(PowerTableDataParser)
@@ -8,7 +12,7 @@ Aqua.test_ambiguities(PowerTableDataParser)
 Aqua.test_stale_deps(PowerTableDataParser)
 Aqua.test_deps_compat(PowerTableDataParser)
 
-LOG_FILE = "power-systems.log"
+LOG_FILE = "table-parser-test.log"
 LOG_LEVELS = Dict(
     "Debug" => Logging.Debug,
     "Info" => Logging.Info,
