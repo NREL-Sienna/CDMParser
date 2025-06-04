@@ -13,4 +13,6 @@ using DocStringExtensions
 include("enums.jl")
 include("power_system_table_data.jl")
 
+export PowerSystemTableData
+
 end

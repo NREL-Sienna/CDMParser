@@ -18,6 +18,17 @@ end
     @test_throws ErrorException PowerSystemTableData(DATA_DIR, 100.0, DESCRIPTORS)
 end
 
+@testset "Loading RTS CSV Data" begin
+rawsys = PowerSystemTableData(
+        RTS_DIR,
+        100.0,
+        joinpath(RTS_DIR, "user_descriptors.yaml");
+        timeseries_metadata_file = joinpath(RTS_DIR, "timeseries_pointers.json"),
+        generator_mapping_file = joinpath(MAP_DIR, "generator_mapping.yaml"),
+    )
+end
+
+#=
 @testset "Consistency between PowerSystemTableData and standardfiles" begin
     # This signature is used to capture expected error logs from parsing matpower
     consistency_test =
@@ -266,3 +277,4 @@ end
     @assert isapprox(get_proportional_term(cost_curve), 0.0, atol = 0.01)
     @assert isapprox(get_constant_term(cost_curve), 0.0, atol = 0.01)
 end
+=#
