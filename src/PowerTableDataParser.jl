@@ -1,5 +1,6 @@
 module PowerTableDataParser
 import InfrastructureSystems
+import JSON3
 
 const IS = InfrastructureSystems
 
