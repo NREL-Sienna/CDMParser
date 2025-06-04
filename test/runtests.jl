@@ -13,6 +13,8 @@ Aqua.test_ambiguities(PowerTableDataParser)
 Aqua.test_stale_deps(PowerTableDataParser)
 Aqua.test_deps_compat(PowerTableDataParser)
 
+include("rts_loading_utils.jl")
+
 LOG_FILE = "table-parser-test.log"
 LOG_LEVELS = Dict(
     "Debug" => Logging.Debug,
